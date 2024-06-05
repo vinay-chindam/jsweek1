@@ -55,3 +55,39 @@ console.log(dest2)
 
 // object cloning
 
+
+let name=new String("vinay")
+console.log(typeof(name))
+
+
+
+//Arrays
+
+let arr=[]
+for(let i=0;i<10;i++){
+    arr.push(i)
+}
+
+console.log(arr)
+
+for(let i in arr){
+    console.log(i)
+}
+
+//start --> unshift
+//middle -->splice(index,delete count,insert items)
+//end -->push(item)
+
+//call back functions
+
+let courses=[
+    {no:1,name:"c1"},
+    {
+        no:2,name:"c2"
+    }
+]
+
+let course=courses.find(course=> course.name==="c2")
+console.log(course)
+
+
